@@ -3,4 +3,6 @@ def addition(*num):
   for i in num:
     _num+=i
     yield _num
-print(addition(2,3,4,5,6,7,7,6,5))
+result = addition(3,4,5,6,7,8,9,10)
+for i in result:
+  print(i)
